@@ -1,0 +1,32 @@
+/* 
+    Document   : style
+    Created on : 6.4.2014, 13:22:13
+    Author     : Defu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    height: 100%;
+    padding-top: 50px;
+    background-color: #D5E0F2;
+    font: 12px arial;
+}
+
+#menu {
+    width: 250px;
+    height: 999 px;
+    float: left;
+    
+    font-size: 16px;
+}
+
+.menulistitem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#main {
+    height: 100%;
+    float: left;
+}
