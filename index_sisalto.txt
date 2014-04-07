@@ -1,6 +1,8 @@
+<div style="font-size:36px;font-weight:bold;">Eclipse-tutoriaali</div>
+
 <div>
 <p>Hei!</p>
-<p>Tervetuloa Digitaalisen opetusmedian harjoitustyömme sivulle!</p>
+<p>Tervetuloa Digitaalisen opetusteknologian harjoitustyömme sivulle!</p>
 
 <p>Tällä sivulla pyrimme selittämään kohta kohdalta 
 miten suosittu Eclipse-ohjelmointiympäristö asennetaan ja miten sen perusominaisuudet toimivat.</p>
