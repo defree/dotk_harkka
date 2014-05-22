@@ -6,14 +6,14 @@
 var sisalto = "";
 
 $( document ).ready(function() {
-    $('#main').load("etusivu_sisalto.txt");
+    $('#main').load("etusivu_sisalto.html");
     
     $('.menulistitem').on('click',function() {
         //$('#main').empty();
         
         sisalto = $(this).text().toLowerCase();
         
-        $('#main').load(sisalto + "_sisalto.txt");
+        $('#main').load(sisalto + "_sisalto.html");
         
     });
 });
