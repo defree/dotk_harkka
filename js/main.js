@@ -12,6 +12,9 @@ $( document ).ready(function() {
         //$('#main').empty();
         
         sisalto = $(this).text().toLowerCase();
+        sisalto = sisalto.replace(/\s+/g,"_");
+        //alert(sisalto);
+        
         
         $('#main').load(sisalto + "_sisalto.html");
         

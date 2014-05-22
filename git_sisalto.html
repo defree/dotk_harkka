@@ -1,1 +1,105 @@
-<p><h1>Git</h1></p>
+<h1>Git: kloonaaminen</h1>
+
+<div class="pictext">
+<ul class="pictext_list">
+<li>Eclipsen git-työkalussa on monia eri toimintoja</li>
+<li>Tässä esimerkissä keskitytään repositoryn kloonaamiseen githubista, committaamiseen, pushaamiseen ja pullaamiseen</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_1.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Avataan ensin Git näkymä, klikkaamalla ensin Window -> Open perspective -> Other</li>
+<li>Aukeavasta listasta valitaan Git ja painetaan Ok</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_2.png" class="pic_default"/>
+<ul class="pictext_list">
+<li>Git-näkymässä voidaan hallita lisättyjä repositoryjä</li>
+<li>Valitaan Clone a Git repository</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_3.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Aukeavassa ikkunassa syötetään osoite mistä repository halutaan hakea. Tiedot syöttyvät automaattisesti kun osoite syötetään URI-kenttään</li>
+<li>Painetaan Next</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_4.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Tässä ikkunassa näkyy repositoryssä olevat haarat. Riippuen projektista valitaan master, joka on päähaara tai jokin muu haara</li>
+<li>Painetaan Next</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_5.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Viimeisessä ikkunassa voidaan valita minne repositoryn sisältö tallennetaan ja voidaan suoraan importata olemassa olevat projektit reposta</li>
+<li>Koska testirepossa on Eclipsellä tehty projekti valmiina valitaan Import all existing projects</li>
+<li>Klikataan Finish</li>
+</ul>
+</div>
+
+<div class="pictext">
+<ul class="pictext_list">
+<li>Takaisin ohjelmointinäkymään pääsee klikkaamalla Java EE oikeasta yläkulmasta. Importatut projektit näkyvät vasemmalla projektilistauksessa.</li>
+</ul>
+</div>
+
+<h1>Commit & push</h1>
+
+<div class="pictext">
+<img src="images/git/git_6.png" class="pic_default" />
+<ul class="pictext_list">
+<li>Kun projektiin on tehty muutoksia, se näkyy projektilistauksessa mm. ">"-merkin kanssa projektin nimen vieressä</li>
+<li>Muutoksien tallentaminen ja vieminen remote repositoryyn tapahtuu Commit-toiminnon avulla, joka löytyy Team-valikosta</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_7.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Commit-näkymässä pitää lisätä commit-viesti, joka kuvaa mitä muutoksia tähän committiin on tehny</li>
+<li>Uudet tiedostot eivät ole valmiiksi valittuina ja ne pitää valita jos ne haluaa committiin mukaan. Tiedostoihin, jotka olivat jo olemassa, tehdyt muutokset tulevat automaattisesti jos ei niitä valitse pois.</li>
+<li>Kun ollaan valmiita, voidaan klikata suoraan Commit and Push</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_8.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Jos käyttäjänimeä eikä salasanaa olla aikaisemmin syötetty, voidaan niitä kysyä tässä vaiheessa</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_9.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Push on onnistunut jos virheviestejä ei tule</li>
+</ul>
+</div>
+
+<h1>Pull</h1>
+
+<div class="pictext">
+<img src="images/git/git_10.png" class="pic_default" />
+<ul class="pictext_list">
+<li>Mikäli remote repositoryyn on tehty muutoksia, voidaan muutokset hakea Pull-komennolla. Sekin löytyy Team-valikosta</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/git/git_11.png" class="pic_default" style="height:40%;width:40%;" />
+<ul class="pictext_list">
+<li>Jos uusien muutoksien kanssa ei tule Merge-ongelmia, niin tässä ikkunassa näytetään haetut Commitit</li>
+<li>Klikataan Ok ja projekti on taas ajan tasalla</li>
+</ul>
+</div>
