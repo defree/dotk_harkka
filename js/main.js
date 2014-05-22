@@ -6,7 +6,7 @@
 var sisalto = "";
 
 $( document ).ready(function() {
-    $('#main').load("index_sisalto.txt");
+    $('#main').load("etusivu_sisalto.txt");
     
     $('.menulistitem').on('click',function() {
         //$('#main').empty();

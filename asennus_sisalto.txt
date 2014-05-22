@@ -1,1 +1,66 @@
-<p>asennus</p>
+<p><h1>Lataus ja asennus</h1></p>
+
+<div class="pictext">
+<img src="images/asennus/Asennus_etusivu.jpg" class="pic_default" />
+<ul class="pictext_list">
+<li>Siirry osoitteeseen <a href=http://www.eclipse.com">http://www.eclipse.com</a></li>
+<li>Paina Download Eclipse –painiketta sivun oikeasta laidasta tai Download-paniketta yläpalkista</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/asennus/Asennus_downloads.png" class="pic_default" />
+<ul class="pictext_list">
+<li>Eclipsestä on saatavilla useita erilaisia versioita</li>
+<li>Suotavin asennettava vaihtoehto Java-ohjelmointiin on Eclipse IDE for EE Developers</li>
+<li>Eclipse EE sisältää useampia ohjelmointirajapintoja (API), kuten RMI ja XML, joiden avulla voidaan luoda Java web-applikaatioita</li>
+<li>Vaadin-plugin vaatii myös toimiakseen Eclipse EE ohjelmointiympäristön</li>
+</ul>
+</div>
+
+<div class="pictext">
+<ul class="pictext_list">
+<li>Windows-käyttäjät voivat asentaa ohjelman suoraan tältä sivulta 32- tai 64-bittisen version oman käyttöliittymän mukaan</li>
+<li>Paina “Eclipse IDE for Java EE developers”</li>
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/asennus/Asennus_EclipseEE_DownloadLinks.jpg" class="pic_default" />
+<ul class="pictext_list">
+<li>Valitse Download Links –sivupalkista oman käyttöliittymäsi versio</li>
+
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/asennus/Asennus_linkit.jpg" class="pic_default" />
+<ul class="pictext_list">
+<li>Valitse haluamasi latauslinkki tai  suositeltu ensimmäinen linkki vihreän nuolen oikealta puolelta</li>
+
+</ul>
+</div>
+
+<div class="pictext">
+<img src="images/asennus/Asennus_ladattu.png" class="pic_default" />
+<ul class="pictext_list">
+<li>Lataus alkaa hetken kuluttua</li>
+<li>Odota, että lataus valmistuu</li>
+</ul>
+</div>
+
+<div class="pictext">
+<ul class="pictext_list">
+<li>Pura ladatut tiedostot</li>
+<li>Sovellus ei vaadi erilistä asennusta vaan käynnistyy suoraan Eclipse.exe tiedoston kautta. Siksi on suositeltavaa tallentaa puretun tiedoston sisällä oleva eclipse-kansio esimerkiksi kovalevyn juureen.</li>
+<li>Kaksoisklikkaa Eclipse.exe tiedostoa</li>
+</ul>
+<img src="images/asennus/Asennus_siirto.jpg" class="pic_default" />
+</div>
+
+<div class="pictext">
+<img src="images/asennus/Kaynnistys_prompt.jpg" class="pic_default" style="height:40%;width:40%;"/>
+<ul class="pictext_list">
+<li>Ensimmäisellä kerralla tietokone saattaa pyytää lupaa suorittaa ohjelma. Paina ”Run”</li>
+</ul>
+</div>
